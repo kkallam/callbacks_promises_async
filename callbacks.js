@@ -1,11 +1,11 @@
  const getName = (callback=> {
     let data ={};
-    data = {...data, name: 'Koti'};
+    data = {...data, name: 'Jack'};
     callback(data, getAge);
 })
 
  const getAge = ((data, callback)=> {
-    data = {...data,  age: 35};
+    data = {...data,  age: 28};
     callback(data, getDepartment);
 })
 

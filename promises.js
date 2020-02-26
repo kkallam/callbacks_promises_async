@@ -1,14 +1,14 @@
 const getName = (() => {
     return new Promise((resolve, reject)=>{
         let data ={};
-        data = {...data, name: 'Koti'};
+        data = {...data, name: 'Sam'};
         resolve(data);
     }) 
 })
 
 const getAge = ((data)=> {
     return new Promise((resolve, reject)=> {
-        data = {...data,  age: 35};
+        data = {...data,  age: 40};
         resolve(data);
     })
 })

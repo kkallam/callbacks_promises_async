@@ -1,14 +1,14 @@
 const getName = (() => {
     return new Promise((resolve, reject)=>{
         let data ={};
-        data = {...data, name: 'Koti'};
+        data = {...data, name: 'Smitha'};
         resolve(data);
     }) 
 })
 
 const getAge = ((data)=> {
     return new Promise((resolve, reject)=> {
-        data = {...data,  age: 35};
+        data = {...data,  age: 32};
         resolve(data);
     })
 })
@@ -39,5 +39,4 @@ async function init(){
         console.log('Error ..' + error);
     }
 }
-
 init();
